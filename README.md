@@ -1,2 +1,4 @@
 # Amaury-Lab-Work05-JS
-js / css 5th project with EFREI and ILAC 
+[Check my website live here !](https://heqqqqx.github.io/Amaury-Lab-Work05-JS/index.html)
+
+
