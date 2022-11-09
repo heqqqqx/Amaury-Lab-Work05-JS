@@ -200,3 +200,22 @@ button:hover {
     color: #333;
     margin-bottom: 100px;
 }
+
+/*Use of a webkit to customize the scrollbar and accord it to the site theme*/
+
+
+::-webkit-scrollbar {
+    width: 10px
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #4CAF50;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #45a049;
+}
