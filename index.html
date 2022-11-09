@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/styles.css" />
+  <title>Full Review AMAURY DAVOINE</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>Home Page</h1>
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./excel.html">Excel</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <form id="main-form" name="mainform">
+        <label for="first-name">First Name</label>
+        <input type="text" id="first-name" name="firstname" />
+        <label for="last-name">Last Name</label>
+        <input type="text" id="last-name" name="lastname" />
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" />
+        <label for="address">Address</label>
+        <input type="text" id="address" name="address" />
+        <label for="city">City</label>
+        <input type="text" id="city" name="city" />
+        <label for="province">Province</label>
+        <input type="text" id="province" name="province" />
+        <label for="membership">Chose your type of membership :</label>
+        <div class="radio-container">
+          <input type="radio" id="premium" name="membership" value="Premium" checked />
+          <label for="premium">Premium membership</label>
+          <input type="radio" id="standard" name="membership" value="Standard" />
+          <label for="standard">Standard membership</label>
+          <input type="radio" id="basic" name="membership" value="Basic" />
+          <label for="basic">Basic membership</label>
+        </div>
+        <div class="actions-container">
+          <input id="user-submit" type="button" value="Submit" />
+          <input id="user-cancel" type="reset" value="Cancel"/>
+
+
+        </div>
+      </form>
+      <div id="output">
+        <!-- The result will be there -->
+
+      </div>
+    </main>
+  </div>
+  <footer>
+    <p>
+      ILAC & EFREI Partnership- HTML, CSS, and JavaScript Main Lab-work -
+      Amaury DAVOINE
+    </p>
+  </footer>
+  <script src="./js/script.js"></script>
+
+</body>
+
+</html>

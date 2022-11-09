@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Full Review-Amaury DAVOINE</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Excel Functions</h1>
+        <nav>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./excel.html">Excel</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <form id="main-form" name="mainform">
+          <label for="numbers">Enter your numbers (separated by spaces) :</label>
+          <input type="text" id="numbers" name="numbers" />
+          <label for="operation">What operation do you want to perform ?</label>
+          <div class="operations-container">
+            <input type="radio" name="operation" id="sum" value="sum" checked>
+            <label for="sum">AutoSum</label>
+            <input type="radio" name="operation" id="average" value="average">
+            <label for="average">Average</label>
+            <input type="radio" name="operation" id="max" value="max">
+            <label for="max">Max</label>
+            <input type="radio" name="operation" id="min" value="min">
+            <label for="min">Min</label>
+          </div>
+          <input id="submit-calculation" type="submit" value="Calculate" />
+        </form>
+        <div id="output">
+          Result: <span id="result" > <!-- the result will be there --> </span>
+        </div>
+      </main>
+    </div>
+    <footer>
+      <p>
+        ILAC & EFREI Partnership- HTML, CSS, and JavaScript Main Lab-work -
+        Amaury DAVOINE
+      </p>
+    </footer>
+    <script src="./js/script.js" ></script>
+  </body>
+</html>
