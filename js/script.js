@@ -19,7 +19,7 @@ function reset(){
     document.getElementById("output").innerHTML = "";
 }
 
-if (document.location.pathname == "./index.html") {
+if (document.URL.includes("index.html")) {
 
 const submit_form = document.getElementById("user-submit");
 submit_form.addEventListener("click", userForm);
