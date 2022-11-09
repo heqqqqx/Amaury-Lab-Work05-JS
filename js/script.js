@@ -14,6 +14,7 @@ function userForm(){
     }
     document.getElementById("output").innerHTML = "<h2>First Name: </h2> <h3>" + firstname  + "</h3><h2>Last Name: </h2><h3>" + lastname + "</h3><h2>Email: </h2><h3>" + email  + "</h3><h2>Address: </h2><h3>" + address +  "</h3><h2>City: </h2><h3>" + city + "</h3><h2>Province: </h2><h3>" + province + "</h3><h2>Membership: </h2><h3>" +  membershipChoice + "</h3>";
 }
+// function to reset the form and output (personnal adding)
 
 function reset(){
     document.getElementById("output").innerHTML = "";
